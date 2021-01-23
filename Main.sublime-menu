@@ -1,0 +1,45 @@
+[
+{
+    "caption": "Preferences",
+    "mnemonic": "n",
+    "id": "preferences",
+    "children":
+    [
+        {
+            "caption": "Package Settings",
+            "id": "package-settings",
+            "children":
+            [
+                {
+                    "caption": "devnotes",
+                    "children":
+                    [
+                        {
+                            "command": "open_file",
+                            "args": {"file": "${packages}/devnotes/devnotes.sublime-settings" },
+                            "caption": "Settings – Default"
+                        },
+                        {
+                            "command": "open_file",
+                            "args": {"file": "${packages}/User/devnotes.sublime-settings"},
+                            "caption": "Settings – User"
+                        },
+                        { "caption": "-" },
+                        {
+                            "command": "open_file",
+                            "args": {"file": "${packages}/devnotes/Default.sublime-keymap"},
+                            "caption": "Key Bindings – Default"
+                        },
+                        {
+                            "command": "open_file",
+                            "args": {"file": "${packages}/User/Default.sublime-keymap" },
+                            "caption": "Key Bindings – User"
+                        },
+                        { "caption": "-" }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+]
