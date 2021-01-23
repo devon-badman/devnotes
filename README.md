@@ -11,8 +11,10 @@ Use:
     - This will open the notes are your current cursor locations. If the note does not exist, it will be created.
 
 Settings:
-    in your user settings or project settings you can set the following options
-        {
-            "root": "~/devnotes/Notes/",
-            "note_save_extension": "md"
-        }
+- in your user settings or project settings you can set the following options
+```json
+{
+    "root": "~/devnotes/Notes/",
+    "note_save_extension": "md"
+}
+```
