@@ -1,0 +1,18 @@
+[
+    {
+        "caption": "devnotes: New…",
+        "command": "new_note"
+    },
+    {
+        "caption": "devnotes: New Linked…", 
+        "command": "new_note",
+        "args" :
+        {
+            "linked" : true
+        }
+    },
+    {
+        "caption": "devnotes: Follow Link",
+        "command": "open_note"
+    },
+]

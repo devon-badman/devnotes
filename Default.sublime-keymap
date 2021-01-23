@@ -1,0 +1,18 @@
+[
+    {
+        "keys" : ["super+f4"],
+        "command" : "new_note"    
+    },
+    {
+        "keys" : ["super+shift+f4"],
+        "command" : "new_note",
+        "args" :
+        {
+            "linked" : true
+        }
+    },
+    {
+        "keys" : ["super+shift+f1"],
+        "command" : "open_note"    
+    },
+]
