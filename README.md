@@ -1,4 +1,5 @@
-# A simple notes plugin for SublimeText
+# [devnotes](https://github.com/devon-badman/devnotes)
+A simple notes plugin for SublimeText
 
 Use:
 - Super+F4 to create a new note
@@ -18,3 +19,14 @@ Settings:
     "note_save_extension": "md"
 }
 ```
+
+## License
+
+Copyright 2021 [Devon Badman](https://github.com/devon-badman).
+Licensed under the MIT License
+
+## Acknowledgments
+
+Thanks to the creators of the following plugins for inspiration and code snippets.
+- https://github.com/aziz/PlainNotes
+- https://github.com/aronwoost/sublime-expand-region
